@@ -4,6 +4,7 @@ An ascii-based Geometry Dash knock-off intended to be run in a console
 
 */
 
+///// Libraries
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
@@ -12,8 +13,10 @@ An ascii-based Geometry Dash knock-off intended to be run in a console
 #include "screens.h"
 #include "globals.h"
 
-//Functions
-//// Main Function
+///// Functions
+
+
+///// Main Function
 int main() {
 	// Initialize ncurses
 	initscr();

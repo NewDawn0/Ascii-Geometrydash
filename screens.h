@@ -3,10 +3,12 @@
  * File containing various screens
  */
 
+///// Libraries
 #include <ncurses.h>
 #include <unistd.h>
 #include "globals.h"
 
+///// Functions
 void splashScreen(char message[]) {
   int i;
   int r = WIN_ROWS/2-6;
